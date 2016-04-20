@@ -3,3 +3,4 @@ build/logs/
 build/coverage/
 build/documentation/vendor/
 vendor/
+node_modules/
