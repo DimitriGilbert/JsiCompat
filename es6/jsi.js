@@ -42,7 +42,7 @@ class Jsi_compat extends Jsi{
 	}
 
 	elt(c){
-		return parent.create(c);
+		return super.create(c);
 	}
 }
 
