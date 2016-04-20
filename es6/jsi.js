@@ -45,3 +45,5 @@ class Jsi_compat extends Jsi{
 		return parent.create(c);
 	}
 }
+
+module.exports = new Jsi_compat();
