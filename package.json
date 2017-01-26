@@ -1,6 +1,6 @@
 {
   "name": "jsi-compat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a compatibility layer between Jsi 0.5 and 1.0",
   "main": "es6/jsi.js",
   "directories": {
