@@ -13,13 +13,7 @@
         <delete dir="${basedir}/build/logs"/>
     </target>
 
-    <target name="bower" depends="clean" description="Update dependencies with bower">
-        <exec executable="${basedir}/node_modules/.bin/bower">
-            <arg value="update"/>
-        </exec>
-    </target>
-
-    <target name="gulp" depends="bower" description="run gulp build">
+    <target name="gulp" depends="npm" description="run gulp build">
         <exec executable="${basedir}/node_modules/.bin/gulp">
             <arg value="build"/>
         </exec>

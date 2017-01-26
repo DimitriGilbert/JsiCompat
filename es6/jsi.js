@@ -1,4 +1,4 @@
-var Jsi = require("Jsi/es6/jsi.js");
+var Jsi = require("@dimitrigilbert/jsi/es6/jsi.js");
 
 class Jsi_compat extends Jsi{
 	constructor(){
