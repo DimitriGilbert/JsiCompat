@@ -8,8 +8,7 @@ gulp.task('build', function () {
         entries: './es6/jsi.js',
         extensions: ['.js'],
         debug: true,
-        paths:['./vendor'],
-        standalone:"Jsi"
+        standalone:"JsiCompat"
     })
         .transform('babelify', {
             presets: ['es2015']
@@ -22,8 +21,7 @@ gulp.task('build', function () {
         entries: './es6/jsi.js',
         extensions: ['.js'],
         debug: false,
-        paths:['./vendor'],
-        standalone:"Jsi"
+        standalone:"JsiCompat"
     })
         .transform('babelify', {
             presets: ['es2015']

@@ -1,8 +1,8 @@
-var Jsi = require("@dimitrigilbert/jsi/es6/jsi.js");
+var Jsi = require("@dimitrigilbert/jsi");
 
-class Jsi_compat extends Jsi{
-	constructor(){
-		super(document);
+class JsiCompat extends Jsi{
+	constructor(doc){
+		super(doc);
 	}
 
 	docelid(id){
@@ -46,4 +46,4 @@ class Jsi_compat extends Jsi{
 	}
 }
 
-module.exports = new Jsi_compat();
+module.exports = JsiCompat;
